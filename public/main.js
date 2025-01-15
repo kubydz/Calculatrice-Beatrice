@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const calculator = document.getElementById('calculator');
     let display = '';
@@ -16,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         '7', '8', '9', '/',
         '4', '5', '6', '*',
         '1', '2', '3', '-',
-        '0', '.', '=', '+','CA'
+        '0', '.', '=', '+','CA','Kubz'
         
     ];
 
