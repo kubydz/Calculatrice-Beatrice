@@ -1,17 +1,19 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     const calculator = document.getElementById('calculator');
     let display = '';
+
+
 
     // Création de l'écran //
     const screen = document.createElement('div');
     screen.className = 'screen';
     calculator.appendChild(screen);
 
-    // body.appendChild(monTitre)
-    // let monTitre = document.createElement("h1")
-    // let texteH = document.createTextNode ("Calclulatrice")
-
+    const title = document.createElement('h1');
+    title.textContent = 'Calculatrice à beatrice';
+    document.body.insertBefore(title, document.body.firstChild);
+    
+    
     // Création des boutons //
     const buttons = [
         '7', '8', '9', '/',
