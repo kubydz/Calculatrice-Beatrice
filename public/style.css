@@ -72,6 +72,7 @@ h1 {
     color: #5d2e0d;
     font-family: 'Tangerine', serif;
     font-size: 70px;
-    text-decoration: underline;
+    text-decoration:overline;
+    
     margin-bottom: 90px;
 }
