@@ -34,6 +34,13 @@ body {
     margin-bottom: 10px;
     min-height: 40px;
     word-wrap: break-word;
+    /* border-bottom: inset #1c5233 solid 3px;
+    border-top: inset #93f0bb solid 3px;
+    border-right:inset  #124327 solid 3px;
+    border-left: inset #87ffbb solid 3px ; */
+    box-shadow: inset 2px 4px 6 px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.2);
+    
+
 }
 
 button {
@@ -47,8 +54,8 @@ button {
     transition: background-color 0.3s;
     border-right:hsl(25, 75%, 21%) solid 3px ;
     border-bottom:hsl(25, 75%, 21%) solid 3px ;
-    border-top:hsl(25, 75%, 21%) solid 3px ;
-    border-left:hsl(25, 75%, 21%) solid 3px ;
+    border-top:hsl(25, 94%, 79%) solid 3px  ;
+    border-left:hsl(25, 91%, 71%) solid 3px ;
 }
 
 button:hover {
